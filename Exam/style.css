@@ -70,11 +70,40 @@ body {
   padding: 180px;
   margin-top: 3rem;
 }
+@media only screen and (max-width: 400px) {
+  .banner div {
+    width: 100%;
+  }
+}
 .banner div h1 {
   text-align: center;
   color: #fff;
   font-size: 4rem;
   font-family: var(--font-base);
+}
+@media only screen and (max-width: 400px) {
+  .banner div h1 {
+    width: 10rem;
+    font-size: 2rem;
+    margin-left: -4rem;
+  }
+}
+.banner div .hidden-txt {
+  display: none;
+}
+@media only screen and (max-width: 400px) {
+  .banner div .hidden-txt {
+    display: block;
+    font-size: 1rem;
+    width: 10rem;
+    margin-left: -4rem;
+  }
+}
+@media only screen and (max-width: 736px) {
+  .banner div .hidden-txt {
+    display: block;
+    font-size: 1.5rem;
+  }
 }
 .banner div p {
   text-align: center;
@@ -82,6 +111,16 @@ body {
   color: #fff;
   font-size: 2.87rem;
   font-family: var(--font-base);
+}
+@media only screen and (max-width: 736px) {
+  .banner div p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 392px) {
+  .banner {
+    width: 25rem;
+  }
 }
 
 main #book div h2 {
@@ -163,10 +202,25 @@ main #exam .banner2 div h1 {
   font-size: 4rem;
   font-family: var(--font-base);
 }
+@media only screen and (max-width: 482px) {
+  main #exam .banner2 div h1 {
+    margin-left: -4rem;
+  }
+}
 main #exam .banner2 div p {
   text-align: center;
   margin-top: 2rem;
   color: #fff;
   font-size: 2.87rem;
   font-family: var(--font-base);
+}
+@media only screen and (max-width: 728px) {
+  main #exam .banner2 div p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 392px) {
+  main #exam .banner2 {
+    width: 25rem;
+  }
 }/*# sourceMappingURL=style.css.map */
