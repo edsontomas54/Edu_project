@@ -137,4 +137,36 @@ main .box-container .box .content h3 {
 }
 main .box-container .box .content p {
   color: var(--light-black-color);
+}
+main #exam div h2 {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  font-family: var(--font-base);
+  font-size: 2.7rem;
+  color: var(--black);
+  font-weight: 500;
+}
+main #exam .banner2 {
+  background: linear-gradient(rgb(0, 0, 1), hsla(224, 88%, 37%, 0.294)), url("../assets/img/bgImage2.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+main #exam .banner2 div {
+  padding: 180px;
+  margin-top: 3rem;
+}
+main #exam .banner2 div h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-family: var(--font-base);
+}
+main #exam .banner2 div p {
+  text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 2.87rem;
+  font-family: var(--font-base);
 }/*# sourceMappingURL=style.css.map */

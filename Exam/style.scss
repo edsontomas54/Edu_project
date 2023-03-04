@@ -162,4 +162,47 @@ main {
         }
     }
 
+    #exam{
+        div{
+
+            h2{
+                text-align: center;
+                    padding: 2rem;
+                    margin-top: 2rem;
+                    font-family: var(--font-base);
+                    font-size: 2.7rem;
+                    color: var(--black);
+                    font-weight: 500;
+            }
+        }
+
+        .banner2{
+            background: linear-gradient(rgba(0, 0, 0.5), hsla(224, 88%, 37%, 0.294)), url("../assets/img/bgImage2.jpg") no-repeat fixed;
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+        
+            div {
+                padding: 180px;
+                margin-top: 3rem;
+        
+                h1 {
+                    text-align: center;
+                    color: #fff;
+                    font-size: 4rem;
+                    font-family: var(--font-base);
+                }
+        
+                p {
+                    text-align: center;
+                    margin-top: 2rem;
+                    color: #fff;
+                    font-size: 2.87rem;
+                    font-family: var(--font-base);
+                }
+        }
+
+    }
+    
+    }
 }
